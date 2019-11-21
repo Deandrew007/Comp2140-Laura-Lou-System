@@ -1,4 +1,3 @@
-package kidsnextdoor;
 
 public class Main {
 
