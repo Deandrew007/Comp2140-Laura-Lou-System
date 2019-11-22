@@ -10,9 +10,9 @@ public class Client {
 	private String address;
 	
 	//constructors
-	
+
 	//methods
 	public compareTo() {};
 	public String toString() {};
-	
+
 }
