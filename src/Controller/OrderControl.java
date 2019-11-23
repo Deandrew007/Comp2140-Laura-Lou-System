@@ -34,12 +34,10 @@ public class OrderControl {
 	public Order getOrder() {}
 	public Client getClient() {}
 	public Employee getEmployee() {}
-	public Inventory getInventory() {}
 	public Report getReport() {}
 	public ArrayList<Order> getListOrders() {}
 	public ArrayList<Client> getListClients() {}
 	public ArrayList<Employee> getListEmployees() {}
-	public ArrayList<Inventory> getListInventory() {}
 	public ArrayList<Report> getListReports() {}
 	
 }

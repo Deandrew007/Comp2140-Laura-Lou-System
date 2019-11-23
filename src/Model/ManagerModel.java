@@ -8,7 +8,6 @@ public class ManagerModel {
 	private ArrayList<Client> clients;
 	private ArrayList<Employee> allEmployees;
 	private ArrayList<Employee> availableEmployees;
-	private ArrayList<Inventory> inventory;
 	private ArrayList<Report> reports;
 	private ArrayList<Order> archivedOrders;
 	private ArrayList<Client> archivedClients;
