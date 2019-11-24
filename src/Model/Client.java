@@ -4,17 +4,24 @@ import java.util.*;
 
 public class Client implements Comparable<Client> {
 	//attributes
-	private ArrayList<Order> orders; //array list of orders //when user creates order it is sent into this list of orders (make function)
+	private ArrayList<Order> orders; //array list of orders 
 	private String name; //String attribute for name
 	private Type type; //attribute storing enum type
 	private String address; //String attribute for address
-	HashMap<String, String> client=new HashMap<String, String>(); //storing string (name) to client_info eg. Bob = Address, Type 
 	
+	@SuppressWarnings("unlikely-arg-type")
 	public Client(String name, Type type, String address){
 		//initializes attributes to user original input
 		this.name=name;
-		this.type=type;
 		this.address=address;
+		if (type.equals("Government"))
+			this.type = Type.Government;
+		else if (type.equals("School"))
+			this.type = Type.School;
+		else if (type.equals("Organisation"))
+			this.type = Type.Organisation;
+		else if (type.equals("Private"))
+			this.type = Type.Private;
 	}
 	public void setName(String name){
 		//sets name of client to user input
@@ -22,17 +29,35 @@ public class Client implements Comparable<Client> {
 	}
 	public void setType(Type type){
 		//sets order type of client to user input
-		this.type=type;
+		if (type.equals("Government"))
+			this.type = Type.Government;
+		else if (type.equals("School"))
+			this.type = Type.School;
+		else if (type.equals("Organisation"))
+			this.type = Type.Organisation;
+		else if (type.equals("Private"))
+			this.type = Type.Private;
 	}
 	public void setAddress(String address){
 		//sets address of client to user input
 		this.address=address;
 	}
 	public String getName(){
+		//returns name of client
 		return name;
 	}
-	public Type getType(){
-		return type;
+	public String getType(){
+		//returns type of order
+		String ty;
+		if (this.type==Type.Government)
+			ty="Government";
+		else if (this.type==Type.School)
+			ty="School";
+		else if (this.type==Type.Organisation)
+			ty="Organisation";
+		else
+			ty="Private";
+		return ty;
 	}
 	public String getAddress(){
 		//returns address of client
@@ -40,21 +65,18 @@ public class Client implements Comparable<Client> {
 	}
 	public String toString(String name){
 		//printing client information based on their name
-		System.out.println("Information on Client ",getName());
-		System.out.println("Address of Client: ",getAddress());
-		System.out.println("Type of Order: ",getType());
+		String result = "Information on Client " + getName() + "Address of Client: " + getAddress() + "Type of Order: " + getType();
+		return result;
 	}
-	public compareTo(Client other) {
-		//compares current client to another client by name
-		name1=getName();
-		name2=other.getName();
+	public void MakeOrder(String garment, int quantity, int size, String colour, int refNum,double payment, Status paymentStatus, int skillRequired){
+		//adding order information given to an array list of orders
+		//eg. arraylist=[[garment, quantity, size],[garment,quantity,size]]
+		orders.add(new Order(garment,quantity,size,colour,refNum,payment,paymentStatus,skillRequired));
+	}
+	public int compareTo(Client other) {
+		// TODO Auto-generated method stub
+		String name1=getName();
+		String name2=other.getName();
 		return (name1.compareTo(name2));
-	}
-	/**public String addClient(){
-		//Having HashMap of client information
-		client.put(getName(),getAddress(),getType().toString()) //associates name of client to its address and order type
-	}**/
-	public createOrder(String garment, int quantity, int size, String colour, int refNum, Calendar recDate, double payment, Status paymentStatus, int skillRequired){
-		orders.add(order1);
 	}
 }
