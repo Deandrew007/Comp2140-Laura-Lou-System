@@ -57,5 +57,4 @@ public class Client implements Comparable<Client> {
 	public createOrder(String garment, int quantity, int size, String colour, int refNum, Calendar recDate, double payment, Status paymentStatus, int skillRequired){
 		orders.add(order1);
 	}
-// Returning prior order information (if any) of a specific client
 }
