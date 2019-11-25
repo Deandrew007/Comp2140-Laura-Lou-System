@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.ViewController">
+   <children>
+      <Label layoutX="231.0" layoutY="14.0" text="Create Order" textFill="#19b0dd">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Button id="create_order_btn" layoutX="444.0" layoutY="331.0" mnemonicParsing="false" text="Create Order" />
+      <Label layoutY="370.0" text="Powered by kidsnextdoor" />
+      <Label layoutX="471.0" layoutY="370.0" text="Version No goes here" />
+      <Button id="cancel_btn" cancelButton="true" layoutX="71.0" layoutY="331.0" mnemonicParsing="false" text="Cancel" />
+      <Label layoutX="22.0" layoutY="56.0" text="Garment" />
+      <TextField id="garment_textfield" layoutX="99.0" layoutY="52.0" />
+      <TextField id="qty_textfield" layoutX="99.0" layoutY="95.0" />
+      <Label layoutX="22.0" layoutY="99.0" text="Quantity" />
+      <TextField id="size_textfield" layoutX="99.0" layoutY="138.0" />
+      <Label layoutX="22.0" layoutY="142.0" text="Size" />
+      <TextField id="color_textfield" layoutX="99.0" layoutY="176.0" />
+      <Label layoutX="18.0" layoutY="180.0" text="Color" />
+      <TextField id="ref_no_textfield" layoutX="423.0" layoutY="65.0" />
+      <Label layoutX="328.0" layoutY="65.0" text="Reference No" />
+      <DatePicker id="rec_date_picker" layoutX="99.0" layoutY="216.0" />
+      <Label layoutX="14.0" layoutY="220.0" text="Received Date" />
+      <Label layoutX="14.0" layoutY="264.0" text="Due Date" />
+      <DatePicker id="due_date_picker" layoutX="99.0" layoutY="260.0" />
+      <Label layoutX="328.0" layoutY="108.0" text="Payment" />
+      <TextField id="payment_textfield" layoutX="417.0" layoutY="108.0" />
+   </children>
+</AnchorPane>
