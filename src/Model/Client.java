@@ -68,10 +68,10 @@ public class Client implements Comparable<Client> {
 		String result = "Information on Client " + getName() + "Address of Client: " + getAddress() + "Type of Order: " + getType();
 		return result;
 	}
-	public void MakeOrder(String garment, int quantity, int size, String colour, int refNum,double payment, Status paymentStatus, int skillRequired){
+	public void MakeOrder(String garment, int quantity, int size, String colour, int refNum, int rec_year, int rec_month, int rec_day,int due_year, int due_month, int due_day, double payment, String status, int skill) {
 		//adding order information given to an array list of orders
 		//eg. arraylist=[[garment, quantity, size],[garment,quantity,size]]
-		orders.add(new Order(garment,quantity,size,colour,refNum,payment,paymentStatus,skillRequired));
+		orders.add(new Order(garment,quantity,size,colour,refNum,rec_year,rec_month,rec_day,due_year,due_month,due_day,payment,status,skill));
 	}
 	public int compareTo(Client other) {
 		// TODO Auto-generated method stub
