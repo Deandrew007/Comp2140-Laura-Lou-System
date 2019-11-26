@@ -1,5 +1,5 @@
 package Model;
 
 public enum Status {
-	Paid,Deposit,Paying,Null;
+	Paid,Deposit,Paying,Null,Some;
 }
