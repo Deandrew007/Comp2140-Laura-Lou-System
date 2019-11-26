@@ -26,6 +26,17 @@ public class Client implements Comparable<Client> {
 		//sets name of client to user input
 		this.name=name;
 	}
+	public void setType(Type type){
+		//sets order type of client to user input
+		if (type.equals("Government"))
+			this.type = Type.Government;
+		else if (type.equals("School"))
+			this.type = Type.School;
+		else if (type.equals("Organisation"))
+			this.type = Type.Organisation;
+		else if (type.equals("Private"))
+			this.type = Type.Private;
+	}
 	public void setType(String type){
 		//sets order type of client to user input
 		if (type.equals("Government"))
@@ -66,6 +77,11 @@ public class Client implements Comparable<Client> {
 		//printing client information based on their name
 		String result = "Client Name: " + getName() + "\nType of Client: " + getType() + "\nAddress of Client: " + getAddress();
 		return result;
+	}
+	public void MakeOrder(String garment, int quantity, int size, String colour, int refNum,double payment, Status paymentStatus, int skillRequired){
+		//adding order information given to an array list of orders
+		//eg. arraylist=[[garment, quantity, size],[garment,quantity,size]]
+		//orders.add(new Order(garment,quantity,size,colour,refNum,payment,paymentStatus,skillRequired));
 	}
 	public void makeOrder(Order order){
 		//adding order information given to an array list of orders
