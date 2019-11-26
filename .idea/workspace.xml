@@ -1,14 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e1eb74c-ba3e-4703-aeac-bace936d192d" name="Default Changelist" comment="" />
+    <list default="true" id="5e1eb74c-ba3e-4703-aeac-bace936d192d" name="Default Changelist" comment="merged local branch Drew-dev to master" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Drew-Dev" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1TwaqpAw2ORBFVcfgpkFnSuE9bw" />
@@ -17,15 +30,25 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/openjfx-13.0.1_windows-x64_bin-sdk/javafx-sdk-13.0.1/lib" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="View" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\deand\Desktop\2nd year-sem1\SE\Laura Lou System\src\fxml" />
       <recent name="C:\Users\deand\Desktop\2nd year-sem1\SE\Laura Lou System\src\kidsnextdoor\view" />
       <recent name="C:\Users\deand\Desktop\2nd year-sem1\SE\Laura Lou System\src\kidsnextdoor\model" />
       <recent name="C:\Users\deand\Desktop\2nd year-sem1\SE\Laura Lou System\src\kidsnextdoor\controller" />
@@ -45,9 +68,9 @@
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="kidsnextdoor.Main" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Laura Lou System" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="VM_PARAMETERS" value="--module-path C:\Users\deand\openjfx-13.0.1_windows-x64_bin-sdk\javafx-sdk-13.0.1\lib --add-modules=javafx.controls,javafx.fxml" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
@@ -56,6 +79,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -71,8 +98,32 @@
       <option name="presentableId" value="Default" />
       <updated>1574373804398</updated>
       <workItem from="1574373810314" duration="1681000" />
-      <workItem from="1574375766056" duration="673000" />
+      <workItem from="1574375766056" duration="12352000" />
+      <workItem from="1574525155759" duration="1117000" />
+      <workItem from="1574726086575" duration="10760000" />
     </task>
+    <task id="LOCAL-00001" summary="added main menu and create order view">
+      <created>1574696348135</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574696348135</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added compiler resource files, set path in VM and other solutions to&#10;finally having the GUI to start compiling and also display">
+      <created>1574778505602</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1574778505602</updated>
+    </task>
+    <task id="LOCAL-00003" summary="merged local branch Drew-dev to master">
+      <created>1574778977026</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1574778977026</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,10 +134,18 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added main menu and create order view" />
+    <MESSAGE value="added compiler resource files, set path in VM and other solutions to&#10;finally having the GUI to start compiling and also display" />
+    <MESSAGE value="merged local branch Drew-dev to master" />
+    <option name="LAST_COMMIT_MESSAGE" value="merged local branch Drew-dev to master" />
   </component>
 </project>

@@ -15,7 +15,5 @@ public class Employee {
 	
 	//methods
 	public void calculatePay() {}
-	public String toString() {}
-	public compareTo() {}
-	
+
 }

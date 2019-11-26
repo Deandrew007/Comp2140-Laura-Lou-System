@@ -1,16 +1,17 @@
 package View;
 
-public class View {
+
+public class CreateOrderController {
 	//attributes
 	
 	
 	//constructors
-	public View(){
+	public CreateOrderController(){
 		
 	}
 	
 	//methods
-	public String printOrderInfo() {}
+	/**public String printOrderInfo() {}
 	public String printClientInfo() {}
 	public String printEmployeeInfo() {}
 	public String printInventoryInfo() {}
@@ -21,4 +22,5 @@ public class View {
 	public String printListInventory() {}
 	public String printListReports() {}
 	public String printOptions() {}
+	 */
 }
