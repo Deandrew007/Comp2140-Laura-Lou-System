@@ -1,11 +1,12 @@
 package View;
 
-public class View {
+
+public class ViewController {
 	//attributes
 	
 	
 	//constructors
-	public View(){
+	public ViewController(){
 		
 	}
 	
