@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e1eb74c-ba3e-4703-aeac-bace936d192d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5e1eb74c-ba3e-4703-aeac-bace936d192d" name="Default Changelist" comment="merged local branch Drew-dev to master" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574778505602</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="merged local branch Drew-dev to master">
+      <created>1574778977026</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1574778977026</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,6 +145,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added main menu and create order view" />
     <MESSAGE value="added compiler resource files, set path in VM and other solutions to&#10;finally having the GUI to start compiling and also display" />
-    <option name="LAST_COMMIT_MESSAGE" value="added compiler resource files, set path in VM and other solutions to&#10;finally having the GUI to start compiling and also display" />
+    <MESSAGE value="merged local branch Drew-dev to master" />
+    <option name="LAST_COMMIT_MESSAGE" value="merged local branch Drew-dev to master" />
   </component>
 </project>
