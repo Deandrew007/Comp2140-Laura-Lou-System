@@ -9,8 +9,7 @@ public class Client implements Comparable<Client> {
 	private Type type; //attribute storing enum type
 	private String address; //String attribute for address
 	
-	@SuppressWarnings("unlikely-arg-type")
-	public Client(String name, Type type, String address){
+	public Client(String name, String type, String address){
 		//initializes attributes to user original input
 		this.name=name;
 		this.address=address;
@@ -27,7 +26,7 @@ public class Client implements Comparable<Client> {
 		//sets name of client to user input
 		this.name=name;
 	}
-	public void setType(Type type){
+	public void setType(String type){
 		//sets order type of client to user input
 		if (type.equals("Government"))
 			this.type = Type.Government;
@@ -63,15 +62,23 @@ public class Client implements Comparable<Client> {
 		//returns address of client
 		return address;
 	}
-	public String toString(String name){
+	public String toString(){
 		//printing client information based on their name
-		String result = "Information on Client " + getName() + "Address of Client: " + getAddress() + "Type of Order: " + getType();
+		String result = "Client Name: " + getName() + "\nType of Client: " + getType() + "\nAddress of Client: " + getAddress();
 		return result;
 	}
-	public void MakeOrder(String garment, int quantity, int size, String colour, int refNum,double payment, Status paymentStatus, int skillRequired){
+	public void makeOrder(Order order){
 		//adding order information given to an array list of orders
 		//eg. arraylist=[[garment, quantity, size],[garment,quantity,size]]
-		//orders.add(new Order(garment,quantity,size,colour,refNum,payment,paymentStatus,skillRequired));
+		orders.add(order);
+	}
+	public Order getOrder(int refNum) {
+		for (Order order: orders) {
+			if (order.getRefNum() == refNum) {
+				return order;
+			}
+		}
+		return null;
 	}
 	public int compareTo(Client other) {
 		// TODO Auto-generated method stub
