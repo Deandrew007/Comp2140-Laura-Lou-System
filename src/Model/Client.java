@@ -9,6 +9,20 @@ public class Client implements Comparable<Client> {
 	private Type type; //attribute storing enum type
 	private String address; //String attribute for address
 	
+	@SuppressWarnings("unlikely-arg-type")
+	public Client(String name, Type type, String address){
+		//initializes attributes to user original input
+		this.name=name;
+		this.address=address;
+		if (type.equals("Government"))
+			this.type = Type.Government;
+		else if (type.equals("School"))
+			this.type = Type.School;
+		else if (type.equals("Organisation"))
+			this.type = Type.Organisation;
+		else if (type.equals("Private"))
+			this.type = Type.Private;
+	}
 	public Client(String name, String type, String address){
 		//initializes attributes to user original input
 		this.name=name;
@@ -73,6 +87,11 @@ public class Client implements Comparable<Client> {
 		//returns address of client
 		return address;
 	}
+	public String toString(String name){ 
+			//printing client information based on their name 
+			String result = "Information on Client " + getName() + "Address of Client: " + getAddress() + "Type of Order: " + getType(); 
+			return result; 
+		}
 	public String toString(){
 		//printing client information based on their name
 		String result = "Client Name: " + getName() + "\nType of Client: " + getType() + "\nAddress of Client: " + getAddress();
@@ -81,7 +100,7 @@ public class Client implements Comparable<Client> {
 	public void MakeOrder(String garment, int quantity, int size, String colour, int refNum,double payment, Status paymentStatus, int skillRequired){
 		//adding order information given to an array list of orders
 		//eg. arraylist=[[garment, quantity, size],[garment,quantity,size]]
-		//orders.add(new Order(garment,quantity,size,colour,refNum,payment,paymentStatus,skillRequired));
+		orders.add(new Order(garment,quantity,size,colour,refNum,payment,paymentStatus,skillRequired));
 	}
 	public void makeOrder(Order order){
 		//adding order information given to an array list of orders
