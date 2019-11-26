@@ -30,40 +30,6 @@ public class ManagerModel {
 	
 	//methods
 	public search()
-	public void createOrder() {}
-	public void addOrder() {}
-	public void removeOrder() {}
-	public void archiveOrder() {}
-	public void updateOrder() {}
-	public void setOrder() {}
-	public Order getOrder() {}
-	public void createClient() {}
-	public void addClient() {}
-	public void removeClient() {}
-	public void archiveClient() {}
-	public void updateClient() {}
-	public void setClient() {}
-	public Client getClient() {}
-	public void createEmployee() {}
-	public void addEmployee() {}
-	public void removeEmployee() {}
-	public void archiveEmployee() {}
-	public void updateEmployee() {}
-	public void setEmployee() {}
-	public Employee getEmployee() {}
-	public boolean isAvailable() {}
-	public void createInventory() {}
-	public void addInventory() {}
-	public void removeInventory() {}
-	public void archivenventory() {}
-	public void updateInventory() {}
-	public void setInventory() {}
-	public void genrateReport() {}
-	public void addReport() {}
-	public void removeReport() {}
-	public void archiveReport() {}
-	public Report getReport() {}
-
 	public void createOrder(String client_name, String garment, int quantity, int size, String colour, int refNum, int rec_year, int rec_month, int rec_day,int due_year, int due_month, int due_day, double charge, double deposit, double payment, String status, int skill, int level1, int level2, int level3, int level4) {
 		//find client based on name
 		Client client;
