@@ -1,9 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e1eb74c-ba3e-4703-aeac-bace936d192d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/View/create_employee.fxml" afterDir="false" />
+    <list default="true" id="5e1eb74c-ba3e-4703-aeac-bace936d192d" name="Default Changelist" comment="added main menu and create order view">
+      <change afterPath="$PROJECT_DIR$/src/View/CreateEmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/View/MainMenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fxml/menu_view.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laura Lou System.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Laura Lou System.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Laura Lou System/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Laura Lou System/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/OrderControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/OrderControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/ManagerModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/ManagerModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/ViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/CreateOrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/create_employee.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/fxml/create_employee.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/create_order_view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/fxml/create_order_view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/menu_view.fxml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +28,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -39,13 +53,18 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="View" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\deand\Desktop\2nd year-sem1\SE\Laura Lou System\src\fxml" />
       <recent name="C:\Users\deand\Desktop\2nd year-sem1\SE\Laura Lou System\src\kidsnextdoor\view" />
       <recent name="C:\Users\deand\Desktop\2nd year-sem1\SE\Laura Lou System\src\kidsnextdoor\model" />
       <recent name="C:\Users\deand\Desktop\2nd year-sem1\SE\Laura Lou System\src\kidsnextdoor\controller" />
@@ -65,8 +84,9 @@
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="View.Main" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Laura Lou System" />
+      <option name="VM_PARAMETERS" value="--module-path C:\Users\deand\openjfx-13.0.1_windows-x64_bin-sdk\javafx-sdk-13.0.1\lib --add-modules=javafx.controls,javafx.fxml" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
@@ -75,6 +95,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main" />
@@ -95,6 +116,7 @@
       <workItem from="1574373810314" duration="1681000" />
       <workItem from="1574375766056" duration="12352000" />
       <workItem from="1574525155759" duration="1117000" />
+      <workItem from="1574726086575" duration="10407000" />
     </task>
     <task id="LOCAL-00001" summary="added main menu and create order view">
       <created>1574696348135</created>

@@ -71,7 +71,7 @@ public class Client implements Comparable<Client> {
 	public void MakeOrder(String garment, int quantity, int size, String colour, int refNum,double payment, Status paymentStatus, int skillRequired){
 		//adding order information given to an array list of orders
 		//eg. arraylist=[[garment, quantity, size],[garment,quantity,size]]
-		orders.add(new Order(garment,quantity,size,colour,refNum,payment,paymentStatus,skillRequired));
+		//orders.add(new Order(garment,quantity,size,colour,refNum,payment,paymentStatus,skillRequired));
 	}
 	public int compareTo(Client other) {
 		// TODO Auto-generated method stub

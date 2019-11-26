@@ -18,7 +18,7 @@ public class ManagerModel {
 	
 	
 	//methods
-	public search()
+	/**public search()
 	public void createOrder() {}
 	public void addOrder() {}
 	public void removeOrder() {}
@@ -47,11 +47,10 @@ public class ManagerModel {
 	public void archivenventory() {}
 	public void updateInventory() {}
 	public void setInventory() {}
-	public Inventory getInventory() {}
 	public void genrateReport() {}
 	public void addReport() {}
 	public void removeReport() {}
 	public void archiveReport() {}
 	public Report getReport() {}
-	
+	*/
 }

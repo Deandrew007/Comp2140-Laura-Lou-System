@@ -11,7 +11,7 @@ public class OrderControl {
 	//constructors
 	
 	//methods
-	public  search() {}
+	//public  search() {}
 	public void createOrder() {}
 	public void createClient() {}
 	public void createEmployee() {}
@@ -27,7 +27,7 @@ public class OrderControl {
 	public void archiveClient() {}
 	public void archiveEmployee() {}
 	public void archiveReport() {}
-	public Order getOrder() {}
+	/**public Order getOrder() {}
 	public Client getClient() {}
 	public Employee getEmployee() {}
 	public Report getReport() {}
@@ -35,5 +35,5 @@ public class OrderControl {
 	public ArrayList<Client> getListClients() {}
 	public ArrayList<Employee> getListEmployees() {}
 	public ArrayList<Report> getListReports() {}
-	
+	*/
 }
