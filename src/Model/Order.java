@@ -1,5 +1,8 @@
 package Model;
 
+import javafx.beans.property.SimpleStringProperty;
+
+import java.time.LocalDate;
 import java.util.*;
 
 public class Order implements Comparable<Order>{
@@ -11,13 +14,16 @@ public class Order implements Comparable<Order>{
 	private int refNum;
 	private Calendar recDate;
 	private Calendar dueDate;
+	private LocalDate dateRec;
+	private LocalDate dateDue;
 	private double payment;
 	//private file template;
 	private Status paymentStatus;
 	private int skillRequired;
-	
+	private String clientName;
+
 	//constructors
-	public Order(String garment, int quantity, int size, String colour, int refNum, int rec_year, int rec_month, int rec_day,int due_year, int due_month, int due_day, double payment, String status, int skill) {
+	public Order(String garment, int quantity, int size, String colour, int refNum, int rec_year, int rec_month, int rec_day,int due_year, int due_month, int due_day, double payment, String status, int skill, String clientName) {
 		setGarment(garment);
 		setQuantity(quantity);
 		setSize(size);
@@ -30,11 +36,24 @@ public class Order implements Comparable<Order>{
 		setPayment(payment);
 		setPaymentStatus(status);
 		setSkillRequired(skill);
+
 	}
 	public Order(String garment, int quantity) {
 		setGarment(garment);
 	}
-	
+
+	public Order(String clientName, Integer refNum, double payment, LocalDate dateDue, LocalDate dateRec, String colour, Integer size, Integer quantity, String garment) {
+		this.clientName = clientName;
+		this.dateDue = dateDue;
+		this.dateRec = dateRec;
+		this.refNum = refNum;
+		this.colour = colour;
+		this.payment = payment;
+		this.size = size;
+		this.quantity = quantity;
+		this.garment = garment;
+	}
+
 	//methods
 	public void setGarment(String garment) {
 		this.garment = garment;
@@ -113,6 +132,15 @@ public class Order implements Comparable<Order>{
 	public int getSkillRequired() {
 		return this.skillRequired;
 	}
+
+	public String getClientName() {
+		return clientName;
+	}
+
+	public void setClientName(String clientName) {
+		this.clientName = clientName;
+	}
+
 	public String toString() {
 		return ("Garment: " + getGarment() + "\nQuantity: " + getQuantity() + "\nSize: " + getSize() + "\nColour: " + getColour() + "\nReference Number: " + getRefNum() + "\nDate Ordered requested: " + getRecDate() + "\nOrder Deadline: " + getDueDate() + "\nPayment Status: " + getPaymentStatus() + "\nPayment: " + getPayment() + "\nSkill Required to Accomplish Order: " + getSkillRequired());
 	}
