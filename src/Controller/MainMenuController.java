@@ -21,32 +21,22 @@ public class MainMenuController {
     }
 
     public void createEmployeeBtnClick(javafx.event.ActionEvent actionEvent) throws IOException {
-        Parent createOrderView = FXMLLoader.load(getClass().getResource("/View/create_employee.fxml"));
-        Scene createOrderScene = new Scene(createOrderView);
+        Parent parent = FXMLLoader.load(getClass().getResource("/View/create_employee.fxml"));
+        Scene scene = new Scene(parent);
 
         //Gets the stage information
         Stage window = (Stage)((javafx.scene.Node)actionEvent.getSource()).getScene().getWindow();
-        window.setScene(createOrderScene);
-        window.show();
-    }
-
-    public void assignEmployeeBtnClick(javafx.event.ActionEvent actionEvent) throws IOException {
-        Parent createOrderView = FXMLLoader.load(getClass().getResource("/View/assign_employee.fxml"));
-        Scene createOrderScene = new Scene(createOrderView);
-
-        //Gets the stage information
-        Stage window = (Stage)((javafx.scene.Node)actionEvent.getSource()).getScene().getWindow();
-        window.setScene(createOrderScene);
+        window.setScene(scene);
         window.show();
     }
 
     public void calculatePayrollBtnClick(javafx.event.ActionEvent actionEvent) throws IOException {
-        Parent createOrderView = FXMLLoader.load(getClass().getResource("/View/calculate_payroll.fxml"));
-        Scene createOrderScene = new Scene(createOrderView);
+        Parent p = FXMLLoader.load(getClass().getResource("/View/calculate_payroll.fxml"));
+        Scene sc = new Scene(p);
 
         //Gets the stage information
         Stage window = (Stage)((javafx.scene.Node)actionEvent.getSource()).getScene().getWindow();
-        window.setScene(createOrderScene);
+        window.setScene(sc);
         window.show();
     }
 

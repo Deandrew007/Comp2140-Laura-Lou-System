@@ -5,7 +5,7 @@ import javafx.beans.property.SimpleStringProperty;
 import java.time.LocalDate;
 import java.util.*;
 
-public class Order implements Comparable<Order>{
+public class Order{
 	//attributes
 	private String garment;
 	private int quantity;
@@ -34,7 +34,6 @@ public class Order implements Comparable<Order>{
 		this.dueDate = Calendar.getInstance();
 		setDueDate(due_year, due_month, due_day);
 		setPayment(payment);
-		setPaymentStatus(status);
 		setSkillRequired(skill);
 
 	}
@@ -79,7 +78,7 @@ public class Order implements Comparable<Order>{
 	public void setPayment(double payment) {
 		this.payment = payment;
 	}
-	public void setPaymentStatus(String status) {
+	/**public void setPaymentStatus(String status) {
 		if (status.equals("Paid")){
 			this.paymentStatus = Status.Paid;
 		} else if (status.equals("Deposit")){
@@ -90,6 +89,7 @@ public class Order implements Comparable<Order>{
 			this.paymentStatus = Status.Null;
 		}
 	}
+	 */
 	public void setSkillRequired(int skill) {
 		this.skillRequired = skill;
 	}
@@ -123,12 +123,6 @@ public class Order implements Comparable<Order>{
 	public double getPayment() {
 		return this.payment;
 	}
-	public Status getPaymentStatus() {
-		return this.paymentStatus;
-	}
-	public String getPaymentStatusInfo() {
-		return this.paymentStatus.name();
-	}
 	public int getSkillRequired() {
 		return this.skillRequired;
 	}
@@ -141,14 +135,10 @@ public class Order implements Comparable<Order>{
 		this.clientName = clientName;
 	}
 
+	/**
 	public String toString() {
 		return ("Garment: " + getGarment() + "\nQuantity: " + getQuantity() + "\nSize: " + getSize() + "\nColour: " + getColour() + "\nReference Number: " + getRefNum() + "\nDate Ordered requested: " + getRecDate() + "\nOrder Deadline: " + getDueDate() + "\nPayment Status: " + getPaymentStatus() + "\nPayment: " + getPayment() + "\nSkill Required to Accomplish Order: " + getSkillRequired());
 	}
-	@Override
-	public int compareTo(Order other) {
-		Status status1 = this.paymentStatus;
-		Status status2 = other.getPaymentStatus();
-		return status1.compareTo(status2);
-	}
-	
+	 */
+
 }

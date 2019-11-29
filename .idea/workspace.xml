@@ -2,34 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e1eb74c-ba3e-4703-aeac-bace936d192d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Controller/AssignEmployeeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/CalculatePayrollController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/GenerateReportController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/MainMenuController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/ViewOrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/assign_employee.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/calculate_payroll.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/generate_report.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/menu_view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/view_orders.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/LauraLou.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Laura Lou System/Controller/OrderControl.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Laura Lou System/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Laura Lou System/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Laura Lou System/Model/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Laura Lou System/Model/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Laura Lou System/Model/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Laura Lou System/Model/Employee.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Laura Lou System/Model/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Laura Lou System/Model/Order.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Laura Lou System/View/CreateEmployeeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Laura Lou System/View/CreateOrderController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Laura Lou System/View/MainMenuController.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Laura Lou System/View/create_employee.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Laura Lou System/View/create_employee.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Laura Lou System/fxml/create_employee.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Laura Lou System/fxml/create_order_view.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Laura Lou System/fxml/menu_view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Laura Lou System/View/create_order_view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/CalculatePayrollController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/CalculatePayrollController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/CreateEmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/CreateEmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/GenerateReportController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/GenerateReportController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/MainMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/MainMenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/OrderControl.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/CreateEmployeeController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/CreateOrderController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/MainMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/CreateEmployeeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fxml/create_employee.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/create_employee.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fxml/create_order_view.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fxml/menu_view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Report.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Report.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/calculate_payroll.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/calculate_payroll.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/create_employee.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/create_employee.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/generate_report.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/generate_report.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/view_orders.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/view_orders.fxml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,8 +37,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="FxmlFile" />
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -53,13 +50,24 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1TwaqpAw2ORBFVcfgpkFnSuE9bw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="laura_lou_system" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/openjfx-13.0.1_windows-x64_bin-sdk/javafx-sdk-13.0.1/lib" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/iText7-Core-7.1.4/svg-7.1.4.jar!/" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -67,7 +75,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
@@ -132,6 +140,8 @@
       <workItem from="1574525155759" duration="1117000" />
       <workItem from="1574726086575" duration="10760000" />
       <workItem from="1574865037290" duration="18890000" />
+      <workItem from="1574950332018" duration="2143000" />
+      <workItem from="1574992498382" duration="49000" />
     </task>
     <task id="LOCAL-00001" summary="added main menu and create order view">
       <created>1574696348135</created>

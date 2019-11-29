@@ -3,32 +3,41 @@
 <?import java.lang.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
-<?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="546.0" prefWidth="710.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.CreateEmployeeController">
+<AnchorPane prefHeight="545.0" prefWidth="748.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="Controller.CreateEmployeeController">
     <children>
-        <Label alignment="TOP_LEFT" layoutX="84.0" layoutY="292.0" text="Name" />
-        <Label layoutX="558.0" layoutY="504.0" text="Version No goes here" />
-        <Label layoutX="26.0" layoutY="504.0" text="Powered by kidsnextdoor" />
-        <Button id="back_btn" layoutX="87.0" layoutY="438.0" mnemonicParsing="false" onAction="#backBtnClick" text="Back" />
-        <Button id="create_employee_btn" layoutX="552.0" layoutY="438.0" mnemonicParsing="false" text="Create Employee" />
-        <Label alignment="TOP_LEFT" layoutX="78.0" layoutY="334.0" prefHeight="31.0" prefWidth="43.0" text="Position" />
-        <Label alignment="TOP_LEFT" layoutX="374.0" layoutY="304.0" text="Skill Level" />
-        <TextField id="name_textfield" alignment="TOP_LEFT" layoutX="173.0" layoutY="288.0" />
-        <TextField id="position_textfield" alignment="TOP_LEFT" layoutX="173.0" layoutY="337.0" />
-        <TextField id="skill_level_textfield" alignment="TOP_LEFT" layoutX="456.0" layoutY="300.0" />
-        <TextField id="work_hours_textfield" alignment="TOP_LEFT" layoutX="163.0" layoutY="384.0" />
-        <Label alignment="TOP_LEFT" layoutX="72.0" layoutY="388.0" text="Work Hours" />
-        <Label alignment="TOP_LEFT" layoutX="377.0" layoutY="357.0" text="Pay Rate" />
-        <TextField id="pay_rate_textfield" alignment="TOP_LEFT" layoutX="456.0" layoutY="353.0" />
-      <TableView fx:id="tableView" layoutY="-12.0" prefHeight="264.0" prefWidth="748.0">
-         <columns>
-            <TableColumn fx:id="clientNameColumn" onEditCommit="#changeClientNameCellEvent" prefWidth="75.0" text="Name" />
-            <TableColumn fx:id="refNo" prefWidth="78.0" text="Position" />
-            <TableColumn fx:id="Payment" onEditCommit="#changePaymentCellEvent" prefWidth="82.0" text="Work Hours" />
-            <TableColumn fx:id="recDate" prefWidth="85.0" text="Skill Level" />
-            <TableColumn fx:id="color" onEditCommit="#changeColorCellEvent" prefWidth="75.0" text="Pay Rate" />
-         </columns>
-      </TableView>
+        <Label alignment="TOP_LEFT" layoutX="84.0" layoutY="292.0" text="Name"/>
+        <Label layoutX="558.0" layoutY="504.0" text="Version No goes here"/>
+        <Label layoutX="26.0" layoutY="504.0" text="Powered by kidsnextdoor"/>
+        <Button id="back_btn" layoutX="87.0" layoutY="438.0" mnemonicParsing="false" onAction="#backBtnClick"
+                text="Back"/>
+        <Button id="create_employee_btn" layoutX="552.0" layoutY="438.0" mnemonicParsing="false"
+                onAction="#saveEmployee" text="Create Employee"/>
+        <Label alignment="TOP_LEFT" layoutX="78.0" layoutY="334.0" prefHeight="31.0" prefWidth="43.0" text="Position"/>
+        <Label alignment="TOP_LEFT" layoutX="374.0" layoutY="304.0" text="Skill Level"/>
+        <TextField id="name_textfield" fx:id="nameTextField" alignment="TOP_LEFT" layoutX="173.0" layoutY="288.0"/>
+        <TextField id="position_textfield" fx:id="positionTextField" alignment="TOP_LEFT" layoutX="173.0"
+                   layoutY="337.0"/>
+        <TextField id="skill_level_textfield" fx:id="skillTextField" alignment="TOP_LEFT" layoutX="456.0"
+                   layoutY="300.0"/>
+        <TextField id="work_hours_textfield" fx:id="workhoursTextField" alignment="TOP_LEFT" layoutX="163.0"
+                   layoutY="384.0"/>
+        <Label alignment="TOP_LEFT" layoutX="72.0" layoutY="388.0" text="Work Hours"/>
+        <Label alignment="TOP_LEFT" layoutX="377.0" layoutY="357.0" text="Pay Rate"/>
+        <TextField id="pay_rate_textfield" fx:id="payRateTextField" alignment="TOP_LEFT" layoutX="456.0"
+                   layoutY="353.0"/>
+        <TableView fx:id="tableView" layoutX="3.0" prefHeight="242.0" prefWidth="748.0">
+            <columns>
+                <TableColumn fx:id="name" onEditCommit="#changeNameCellEvent" prefWidth="75.0" text="Name"/>
+                <TableColumn fx:id="position" onEditCommit="#changePositionCellEvent" prefWidth="78.0" text="Position"/>
+                <TableColumn fx:id="workhours" onEditCommit="#changeWorkHoursCellEvent" prefWidth="82.0"
+                             text="Work Hours"/>
+                <TableColumn fx:id="skill" onEditCommit="#changeSkillCellEvent" prefWidth="85.0" text="Skill Level"/>
+                <TableColumn fx:id="payRate" onEditCommit="#changePayRateCellEvent" prefWidth="75.0" text="Pay Rate"/>
+            </columns>
+        </TableView>
+        <Button id="create_employee_btn" layoutX="400.0" layoutY="438.0" mnemonicParsing="false"
+                onAction="#deleteButtonPushed" text="Delete Employee"/>
     </children>
 </AnchorPane>

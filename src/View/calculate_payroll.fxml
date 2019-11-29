@@ -1,14 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="Controller.CalculatePayrollController"
-            prefHeight="400.0" prefWidth="600.0">
-
+<AnchorPane prefHeight="470.0" prefWidth="751.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.CalculatePayrollController">
+   <children>
+      <Button layoutX="101.0" layoutY="389.0" mnemonicParsing="false" onAction="#backBtnClick" text="Back" />
+      <Label layoutX="42.0" layoutY="301.0" text="Employee Name" />
+      <TextField layoutX="149.0" layoutY="297.0" />
+      <Button layoutX="257.0" layoutY="389.0" mnemonicParsing="false" text="Calculate Pay" />
+      <ListView layoutX="124.0" layoutY="32.0" prefHeight="227.0" prefWidth="267.0" />
+      <Label layoutX="153.0" layoutY="74.0" text="Devon Smith" />
+      <Label layoutX="170.0" layoutY="39.0" text="Name">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="284.0" layoutY="39.0" text="Pay">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="271.0" layoutY="74.0" text="16000" />
+      <Label layoutX="271.0" layoutY="110.0" text="30000" />
+      <Label layoutX="153.0" layoutY="110.0" text="Yvonne Moore" />
+   </children>
 </AnchorPane>
