@@ -1,33 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e1eb74c-ba3e-4703-aeac-bace936d192d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/LauraLou.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Laura Lou System/Controller/OrderControl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Laura Lou System/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Laura Lou System/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Laura Lou System/Model/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Laura Lou System/Model/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Laura Lou System/Model/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Laura Lou System/Model/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Laura Lou System/Model/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Laura Lou System/Model/Order.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Laura Lou System/View/create_employee.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Laura Lou System/View/create_employee.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Laura Lou System/View/create_order_view.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/CalculatePayrollController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/CalculatePayrollController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/CreateEmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/CreateEmployeeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/GenerateReportController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/GenerateReportController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/MainMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/MainMenuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/OrderControl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Report.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Report.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/calculate_payroll.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/calculate_payroll.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/create_employee.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/create_employee.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/generate_report.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/generate_report.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/view_orders.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/view_orders.fxml" afterDir="false" />
-    </list>
+    <list default="true" id="5e1eb74c-ba3e-4703-aeac-bace936d192d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +115,7 @@
       <workItem from="1574726086575" duration="10760000" />
       <workItem from="1574865037290" duration="18890000" />
       <workItem from="1574950332018" duration="2143000" />
-      <workItem from="1574992498382" duration="49000" />
+      <workItem from="1574992498382" duration="330000" />
     </task>
     <task id="LOCAL-00001" summary="added main menu and create order view">
       <created>1574696348135</created>
@@ -164,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574779314107</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="final SE demo for classs presentation. a lot of loose code to clean up and functionality that didnt get implemented though.">
+      <created>1574992855460</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1574992855460</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,6 +168,7 @@
     <MESSAGE value="added main menu and create order view" />
     <MESSAGE value="added compiler resource files, set path in VM and other solutions to&#10;finally having the GUI to start compiling and also display" />
     <MESSAGE value="added production unversioned files" />
-    <option name="LAST_COMMIT_MESSAGE" value="added production unversioned files" />
+    <MESSAGE value="final SE demo for classs presentation. a lot of loose code to clean up and functionality that didnt get implemented though." />
+    <option name="LAST_COMMIT_MESSAGE" value="final SE demo for classs presentation. a lot of loose code to clean up and functionality that didnt get implemented though." />
   </component>
 </project>
