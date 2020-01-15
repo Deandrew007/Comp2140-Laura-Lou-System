@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="579.0" prefWidth="755.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ViewOrderController">
+   <children>
+      <TableView fx:id="tableView" layoutX="2.0" layoutY="2.0" prefHeight="264.0" prefWidth="748.0">
+        <columns>
+          <TableColumn fx:id="clientNameColumn" onEditCommit="#changeClientNameCellEvent" prefWidth="75.0" text="Client Name" />
+          <TableColumn fx:id="refNo" prefWidth="78.0" text="Ref No." />
+            <TableColumn fx:id="Payment" onEditCommit="#changePaymentCellEvent" prefWidth="82.0" text="Payment" />
+            <TableColumn fx:id="dueDate" prefWidth="75.0" text="Due Date" />
+            <TableColumn fx:id="recDate" prefWidth="85.0" text="Received Date" />
+            <TableColumn fx:id="color" onEditCommit="#changeColorCellEvent" prefWidth="75.0" text="Color" />
+            <TableColumn fx:id="size" onEditCommit="#changeSizeCellEvent" prefWidth="75.0" text="Size" />
+            <TableColumn fx:id="qty" onEditCommit="#changeQtyCellEvent" prefWidth="75.0" text="Qty" />
+            <TableColumn fx:id="garment" onEditCommit="#changeGarmentCellEvent" prefWidth="75.0" text="Garment" />
+        </columns>
+      </TableView>
+      <Label layoutX="34.0" layoutY="421.0" text="Color" />
+      <TextField id="colorTextfield" fx:id="colorTextField" layoutX="115.0" layoutY="417.0" />
+      <Label layoutX="38.0" layoutY="383.0" text="Size" />
+      <TextField id="sizeTextField" fx:id="sizeTextField" layoutX="115.0" layoutY="379.0" />
+      <Label layoutX="38.0" layoutY="340.0" text="Quantity" />
+      <TextField id="qtyTextField" fx:id="qtyTextField" layoutX="115.0" layoutY="336.0" />
+      <TextField id="clientNameTextField" fx:id="garmentTextField" layoutX="115.0" layoutY="293.0" />
+      <Label layoutX="38.0" layoutY="297.0" text="Garment" />
+      <DatePicker id="dueDatePicker" fx:id="dueDatePicker" layoutX="481.0" layoutY="293.0" />
+      <Label layoutX="396.0" layoutY="297.0" text="Due Date" />
+      <Label layoutX="34.0" layoutY="466.0" text="Received Date" />
+      <DatePicker id="recDatePicker" fx:id="recDatePicker" layoutX="119.0" layoutY="462.0" />
+      <TextField fx:id="clientNameTextField" layoutX="497.0" layoutY="424.0" />
+      <Label layoutX="402.0" layoutY="428.0" text="Client Name" />
+      <TextField id="paymentTextfield" fx:id="paymentTextField" layoutX="491.0" layoutY="385.0" />
+      <Label layoutX="402.0" layoutY="385.0" text="Payment" />
+      <Label layoutX="402.0" layoutY="342.0" text="Reference No" />
+      <TextField id="refNoTextField" fx:id="refNoTextField" layoutX="497.0" layoutY="342.0" />
+      <Button layoutX="144.0" layoutY="509.0" mnemonicParsing="false" onAction="#backBtnClick" text="Back" />
+      <Label layoutX="542.0" layoutY="548.0" text="Version No goes here" />
+      <Label layoutX="71.0" layoutY="548.0" text="Powered by kidsnextdoor" />
+      <Button id="createOrderBtn" layoutX="587.0" layoutY="509.0" mnemonicParsing="false" onAction="#saveOrderBtnClick" text="Create Order" />
+      <Button id="deleteOrderBtn" layoutX="439.0" layoutY="509.0" mnemonicParsing="false" onAction="#deleteButtonPushed" text="Delete Order" />
+   </children>
+</AnchorPane>

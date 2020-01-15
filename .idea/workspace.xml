@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e1eb74c-ba3e-4703-aeac-bace936d192d" name="Default Changelist" comment="merged local branch Drew-dev to master" />
+    <list default="true" id="5e1eb74c-ba3e-4703-aeac-bace936d192d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,26 +11,37 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="FxmlFile" />
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Drew-Dev" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1TwaqpAw2ORBFVcfgpkFnSuE9bw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="laura_lou_system" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/openjfx-13.0.1_windows-x64_bin-sdk/javafx-sdk-13.0.1/lib" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/iText7-Core-7.1.4/svg-7.1.4.jar!/" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -38,7 +49,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
@@ -48,6 +59,7 @@
       <recent name="View" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\deand\Desktop\2nd year-sem1\SE\Laura Lou System\src\View" />
       <recent name="C:\Users\deand\Desktop\2nd year-sem1\SE\Laura Lou System\src\fxml" />
       <recent name="C:\Users\deand\Desktop\2nd year-sem1\SE\Laura Lou System\src\kidsnextdoor\view" />
       <recent name="C:\Users\deand\Desktop\2nd year-sem1\SE\Laura Lou System\src\kidsnextdoor\model" />
@@ -101,6 +113,9 @@
       <workItem from="1574375766056" duration="12352000" />
       <workItem from="1574525155759" duration="1117000" />
       <workItem from="1574726086575" duration="10760000" />
+      <workItem from="1574865037290" duration="18890000" />
+      <workItem from="1574950332018" duration="2143000" />
+      <workItem from="1574992498382" duration="330000" />
     </task>
     <task id="LOCAL-00001" summary="added main menu and create order view">
       <created>1574696348135</created>
@@ -116,14 +131,21 @@
       <option name="project" value="LOCAL" />
       <updated>1574778505602</updated>
     </task>
-    <task id="LOCAL-00003" summary="merged local branch Drew-dev to master">
-      <created>1574778977026</created>
+    <task id="LOCAL-00003" summary="added production unversioned files">
+      <created>1574779314107</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1574778977026</updated>
+      <updated>1574779314107</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="final SE demo for classs presentation. a lot of loose code to clean up and functionality that didnt get implemented though.">
+      <created>1574992855460</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1574992855460</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,7 +167,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added main menu and create order view" />
     <MESSAGE value="added compiler resource files, set path in VM and other solutions to&#10;finally having the GUI to start compiling and also display" />
-    <MESSAGE value="merged local branch Drew-dev to master" />
-    <option name="LAST_COMMIT_MESSAGE" value="merged local branch Drew-dev to master" />
+    <MESSAGE value="added production unversioned files" />
+    <MESSAGE value="final SE demo for classs presentation. a lot of loose code to clean up and functionality that didnt get implemented though." />
+    <option name="LAST_COMMIT_MESSAGE" value="final SE demo for classs presentation. a lot of loose code to clean up and functionality that didnt get implemented though." />
   </component>
 </project>

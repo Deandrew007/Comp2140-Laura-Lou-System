@@ -70,7 +70,7 @@ public class Client implements Comparable<Client> {
 	public void makeOrder(Order order){
 		//adding order information given to an array list of orders
 		//eg. arraylist=[[garment, quantity, size],[garment,quantity,size]]
-		orders.add(order);
+		//orders.add(order);
 	}
 	public Order getOrder(int refNum) {
 		for (Order order: orders) {
